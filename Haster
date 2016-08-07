@@ -1,0 +1,23 @@
+//Constant Car Bounce by xxHASTERxx
+
+int creatorConstant_Bounce(int selectedIndex, vector<int> *selectedMenuIndexes, char *itemText, void *functionParameters) 
+{	
+	if(DoesEntityExist(objecthandle)){
+	network_request_control_of_entity(objecthandle);
+	apply_force_to_entity(objecthandle, true, 0, 0.90, 0, 0, 0, 0, true, true, true, true, false, true);
+	ShowMessageOnScreen("~y~Constant Car Bounce Active! (Made By: ~y~ xxHASTERxx)");
+	}
+	return 0;
+}
+
+//Drift Mode by xxHASTERxx
+
+int creator_Drift_Mode(int selectedIndex, vector<int> *selectedMenuIndexes, char *itemText, void *functionParameters) 
+{	
+	if(DoesEntityExist(objecthandle)){
+	network_request_control_of_entity(objecthandle);
+	apply_force_to_entity(objecthandle, true, 0, 0.90, 0, 0, 0, 0, true, true, true, true, false, true);
+	ShowMessageOnScreen("~y~Drift Mode Active! (Made By: ~y~ xxHASTERxx)");
+	}
+	return 0;
+}

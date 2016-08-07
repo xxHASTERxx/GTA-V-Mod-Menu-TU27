@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xex>
+  <baseaddr addr="0x91A00000"/>
+  <sysdll/>
+  <exportcontainer name="TitanClient.def"/>
+  <format>
+    <compressed/>
+  </format>
+  <mediatypes>
+    <default/>
+    <allpackages/>
+  </mediatypes>
+  <gameregion>
+    <all/>
+  </gameregion>
+  <!-- This will make it look like xosc9v2. -->
+  <!--titleid id="0x00090002"/-->
+  <version major="2" minor="0" build="14714" qfe="0"/>
+</xex>

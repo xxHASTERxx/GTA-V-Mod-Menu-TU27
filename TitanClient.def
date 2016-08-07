@@ -1,0 +1,4 @@
+LIBRARY      TitanClient
+EXPORTS
+    szModuleName	@1 DATA
+

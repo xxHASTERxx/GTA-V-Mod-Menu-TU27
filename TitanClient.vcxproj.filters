@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DataManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GTAVNatives.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HvPeekPoke.cpp">
+      <Filter>Other Stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuSecurity.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerCommunicator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfMods.cpp">
+      <Filter>Source Files\Self Mods</Filter>
+    </ClCompile>
+    <ClCompile Include="SetBuildType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OnlinePlayers.cpp">
+      <Filter>Source Files\Online Players</Filter>
+    </ClCompile>
+    <ClCompile Include="CarSpawner.cpp">
+      <Filter>Source Files\Car Spawner</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportOptions.cpp">
+      <Filter>Source Files\Teleport Options</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GTAVNatives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuSecurity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptedDWORD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HvPeekPoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerCommunicator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="invoker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="natives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="TitanClient.def" />
+    <None Include="xex.xml" />
+    <None Include="ECC.xex">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="chall_resp.bin" />
+    <None Include="HV.bin" />
+    <None Include="Response.bin" />
+    <None Include="xamPatchFile.bin" />
+    <None Include="XOSC_resp.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65c4de76-27f2-49ea-8dda-20c5f24eb02f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0ac9bbdf-d021-4ed5-aee0-2871d93ad283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other Stuff">
+      <UniqueIdentifier>{3b85169c-bcb8-48c5-85b2-e0633688cc59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Self Mods">
+      <UniqueIdentifier>{9458cdf4-4dbc-4ff3-b2d9-80255e76d83f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Online Players">
+      <UniqueIdentifier>{7c791c9f-d5fb-4b37-88f6-ad0948c94be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Car Spawner">
+      <UniqueIdentifier>{e663a4f3-f61f-418d-8436-35288e80cadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Teleport Options">
+      <UniqueIdentifier>{5b5a96a1-35b4-4b2e-bbeb-6a8f70b9aefe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
